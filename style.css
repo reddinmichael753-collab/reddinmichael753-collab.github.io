@@ -4,8 +4,8 @@
 
 body {
   margin: 0;
-  background: #1066a0;
-  color: #222;
+  background: #ffffff;
+  color: #000000;
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
@@ -42,12 +42,12 @@ line-height: 0.9;
 font-weight: 900;
 letter-spacing: -0.04em;
 text-transform: uppercase;
-color: #7422aa;
+color: #fc0480;
 }
 
 .content > p {
 margin: 0;
-color: #999;
+color: #000000;
 font-size: 0.9rem;
 text-transform: uppercase;
 letter-spacing: 0.15em;
