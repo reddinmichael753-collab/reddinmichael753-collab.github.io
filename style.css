@@ -63,19 +63,19 @@ h2 {
 
 
 #interests h3 {
-  color: #ff002b;
+  color: #006eff;
 }
 
 
 #interests li {
   background: #ffe8ec;
-  border-color: #e94560;
-  color: #e94560;
+  border-color: #45e976;
+  color: #2ed30d;
 }
 
 
 #interests li:hover {
-  background: #e94560;
+  background: #e6e945;
   color: #fff;
 }
 
@@ -87,7 +87,7 @@ h2 {
   object-fit: cover;
   display: block;
   border-radius: 16px;
-  filter: grayscale(100%);
+  
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
   transition:
     filter 0.4s ease,
@@ -145,9 +145,55 @@ nav h1 {
     background 0.25s ease,
     color 0.25s ease;
 }
+/* Portfolio styles */
+.content h1 {
+  color: black;
+}
 
+#portfolio {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
 
-.nav-li a:hover {
+#portfolio li {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+#portfolio a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  color: #444;
+  padding: 16px 20px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  transition: background 0.25s ease, color 0.25s ease, transform 0.25s ease;
+}
+
+#portfolio a:hover {
   background: #000;
   color: #fff;
+  transform: translateX(4px);
+}
+
+#portfolio a::after {
+  content: "->";
+  font-size: 0.85rem;
+  opacity: 0.4;
+  transition: opacity 0.25s ease;
+  white-space: nowrap;
+}
+
+#portfolio a:hover::after {
+  opacity: 1;
 }
