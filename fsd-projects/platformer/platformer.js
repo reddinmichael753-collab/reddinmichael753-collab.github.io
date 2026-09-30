@@ -47,9 +47,10 @@ createPlatform(900, 400, 50, 10, "violet");
 //createCollectable("Name", xPos, yPos, GravitNumber, BounceNumber, minX, maxX, speed)
 //createCollectable("Name", xPos, yPos, GravitNumber, BounceNumber)
 //createCollectable("Name", xPos, yPos)
-createCollectable("database", 700, 300)
+createCollectable("database", 700, 300);
 createCollectable("diamond", 200, 170, 0.5, 0.7);
-
+createCollectable("grace", 100, 100, 1, 1, 100, 1300, 5);
+createCollectable("gold", 300, 200, 3, 3, 100, 1300, 5);
 
     
     // TODO 4 - Create Cannons
