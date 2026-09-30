@@ -44,7 +44,11 @@ createPlatform(800, 450, 50, 10, "indigo");
 createPlatform(900, 400, 50, 10, "violet");
 
     // TODO 3 - Create Collectables
-
+//createCollectable("Name", xPos, yPos, GravitNumber, BounceNumber, minX, maxX, speed)
+//createCollectable("Name", xPos, yPos, GravitNumber, BounceNumber)
+//createCollectable("Name", xPos, yPos)
+createCollectable("database", 700, 300)
+createCollectable("diamond", 200, 170, 0.5, 0.7);
 
 
     
