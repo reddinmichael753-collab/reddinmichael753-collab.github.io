@@ -56,7 +56,12 @@ createCollectable("star", 500, 120, 0.5, 0.7);
 
     
     // TODO 4 - Create Cannons
-
+//createCannon("top bottom left right", position, timeBetweenShots, BulletWidth, BulletHeight, minCannonPos, maxCannonPos, cannonSpeed)
+//createCannon("top bottom left right", position, timeBetweenShots, BulletWidth, BulletHeight)
+//createCannon("top bottom left right", position, timeBetweenShots)
+createCannon("top", 800, 1000, 5, 5, 800, 1300, 2)
+createCannon("right", 400, 1000/10, 10, 10)
+createCannon("left", 200, 5000)
 
     
     
