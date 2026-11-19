@@ -29,7 +29,7 @@ var init = function (window) {
     // TODO 3 : Call the drawCircle() function
 
     // TODO 7 : Use a loop to create multiple circles
-    for (var i = 0; i < 25; i++) {
+    for (var i = 0; i < 50; i++) {
   drawCircle(); }
     ///////////////////
     // PROGRAM LOGIC //
@@ -61,9 +61,17 @@ var init = function (window) {
         circle.x = 0;
       }
 
-      // TODO 6 : YOUR CODE STARTS HERE //////////////////////
+      if (circle.x < 0) {
+        circle.x = canvas.width;
+      }
 
-      // YOUR TODO 6 CODE ENDS HERE //////////////////////////
+      if (circle.y < 0) {
+        circle.y = canvas.height;
+      }
+
+      if (circle.y > canvas.height) {
+        circle.y = 0;
+      }
     };
 
     /////////////////////////////////////////////////////////////
